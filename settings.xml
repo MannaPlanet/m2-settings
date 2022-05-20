@@ -22,8 +22,8 @@
     </mirror>
      -->
 		<mirror>
-			<id>maven-default-http-blocker</id>
-			<mirrorOf>external:http:*</mirrorOf>
+			<id>mannaPlanet-mirror</id>
+			<mirrorOf>mannaPlanet</mirrorOf>
 			<name>Pseudo repository to mirror external repositories initially using HTTP.</name>
 			<url>http://dev.manna-planet.com:30008/maven</url>
 			<blocked>false</blocked>
